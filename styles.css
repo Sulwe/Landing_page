@@ -1,0 +1,127 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+}
+.header {
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    padding: 2% 15%;
+
+}
+
+.logo_n_links {
+    display: flex;
+    }
+.links {
+    margin-left: auto;
+    display: flex;
+    gap: 20px;
+}
+.links li {
+    list-style: none;
+}
+.links a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+.header p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.header h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: bolder;
+}
+
+.header .logo_n_links img {
+    width: 150px;
+    height: auto;
+
+}
+.intro {
+    display: flex;
+    margin: 100px 0px 100px;
+    gap: 50px;
+}
+.intro img {
+    width: 400px;
+    height: auto;
+}
+button {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border-radius: 20%;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+.images {
+    display: flex;
+    padding: 2% 20%;
+    gap: 20px;
+    color: #1f2937;
+}
+
+.images img {
+    width: 150px;
+    height: 150px;
+    border: 2px solid #3882f6;
+    border-radius: 10%;
+}
+
+.quote {
+    padding: 10% 25%;
+    background-color: #e5e7eb;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.author {
+    text-align: right;
+}
+
+.action {
+    display: flex;
+    height: 100px;
+    width: 80%;
+    border: 2px solid #2c62ba;
+    margin: 5% 25%;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    justify-content: space-around;
+    flex-shrink: 0;
+}
+
+.signup-btm {
+    border: 1px solid #f9faf8;
+    border-radius: 20%;
+    align-self: center;
+    padding: 0.5% 2%;
+
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#1f2937;
+    color: #e5e7eb;
+    width: 100%;
+    height: 100px;
+    flex-shrink: 0;
+}
