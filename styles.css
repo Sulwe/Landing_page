@@ -55,7 +55,8 @@ body {
 button {
     background-color: #3882f6;
     color: #e5e7eb;
-    border-radius: 20%;
+    border: 1px solid #f9faf8;
+    border-radius: 5px;
 }
 
 .content {
@@ -109,7 +110,7 @@ button {
 
 .signup-btm {
     border: 1px solid #f9faf8;
-    border-radius: 20%;
+    border-radius: 5px;
     align-self: center;
     padding: 0.5% 2%;
 
